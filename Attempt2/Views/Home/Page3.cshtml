@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewData["Title"] = "Page3";
+}
+
+@model Attempt2.Models.InfoModel;
+
+    <body>
+        <style>
+
+            label {
+                padding-left: 25px;
+                color: aqua;
+            }
+
+            body {
+                background-color: gray;
+            }
+
+            h1 {
+                text-align: center;
+                background-color: firebrick;
+            }
+
+            form {
+                padding-left: 45%;
+            }
+
+            button {
+                border: none;
+            }
+
+            div {
+                
+            }
+        </style>
+        <h1 class="text-white">Pick Your Available Days</h1>
+        <br />
+        <form asp-action="Page4" method="post">
+            @foreach (var day in ViewBag.LLDayModel)
+            {
+                <div>
+                    <input asp-for="Day" type="checkbox" /> @day.Day
+                    <br />
+                </div>
+            }
+
+            <br />
+            <button type ="submit">
+                Submit
+            </button>
+        </form>
+
+
+    </body>

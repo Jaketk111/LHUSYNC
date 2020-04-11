@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+   
+    <body>
+        <h1 class="text-white">LHU Sync</h1>
+          <style>
+              h1 {
+                  text-emphasis-color:white;
+                  text-align: center;
+                  background-color: black;
+                  margin-left: 35%;
+                  margin-right: 35%;
+              }
+
+              body {
+                  text-align: center;
+                  background-image: url('img.jpg');
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  padding: 0px;
+                  margin: auto;
+              }
+
+              p {
+                  padding-top: 15%;
+              }
+              h2{
+                  padding-bottom: 10px;
+              }
+              input{
+                  background-color: transparent;
+              }
+          </style>
+        <p>
+            <a href="@Url.Action("Page2","Home")"><input id="Button1" type="button" value="Create a Schedule" /></a>
+        <h2 class="text-white-50">OR</h2>
+        <a href="@Url.Action("UniqueCode","Home")"><input id="Button1" type="button" value="Enter a Unique Code" /></a>
+        </p>
+
+    </body>
+    
