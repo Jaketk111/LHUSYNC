@@ -229,3 +229,4 @@ C:\Users\Darrion Walker\Documents\LHUSync_1\LHUSYNC-1\Attempt2\obj\Debug\netcore
 C:\Users\Darrion Walker\Documents\LHUSync_1\LHUSYNC-1\Attempt2\obj\Debug\netcoreapp3.1\Attempt2.csproj.CopyComplete
 C:\Users\Darrion Walker\Documents\LHUSync_1\LHUSYNC-1\Attempt2\obj\Debug\netcoreapp3.1\Attempt2.dll
 C:\Users\Darrion Walker\Documents\LHUSync_1\LHUSYNC-1\Attempt2\obj\Debug\netcoreapp3.1\Attempt2.pdb
+C:\Users\Darrion Walker\Documents\LHUSync_1\LHUSYNC-1\Attempt2\obj\Debug\netcoreapp3.1\Attempt2.csprojAssemblyReference.cache
