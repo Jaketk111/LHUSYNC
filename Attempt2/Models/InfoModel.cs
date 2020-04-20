@@ -14,7 +14,6 @@ namespace Attempt2.Models
         public String Email { get; set; }
 
         public String Desrcription { get; set; }
-        public String Day { get; set; }
 
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cb867\\source\\repos\\Attempt2\\Attempt2\\Attempt2.csproj": {}
+    "C:\\Users\\Darrion Walker\\Documents\\LHUSync_1\\LHUSYNC-1\\Attempt2\\Attempt2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cb867\\source\\repos\\Attempt2\\Attempt2\\Attempt2.csproj": {
+    "C:\\Users\\Darrion Walker\\Documents\\LHUSync_1\\LHUSYNC-1\\Attempt2\\Attempt2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cb867\\source\\repos\\Attempt2\\Attempt2\\Attempt2.csproj",
+        "projectUniqueName": "C:\\Users\\Darrion Walker\\Documents\\LHUSync_1\\LHUSYNC-1\\Attempt2\\Attempt2.csproj",
         "projectName": "Attempt2",
-        "projectPath": "C:\\Users\\cb867\\source\\repos\\Attempt2\\Attempt2\\Attempt2.csproj",
-        "packagesPath": "C:\\Users\\cb867\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cb867\\source\\repos\\Attempt2\\Attempt2\\obj\\",
+        "projectPath": "C:\\Users\\Darrion Walker\\Documents\\LHUSync_1\\LHUSYNC-1\\Attempt2\\Attempt2.csproj",
+        "packagesPath": "C:\\Users\\Darrion Walker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darrion Walker\\Documents\\LHUSync_1\\LHUSYNC-1\\Attempt2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cb867\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Darrion Walker\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
             }
           },
           "imports": [
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

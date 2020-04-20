@@ -37,29 +37,30 @@
 
             h2 {
                 padding-top: 25px;
+                text-align: center;
             }
 
             h3 {
+                text-align: center;
                 
             }
+
         </style>
         <h2>Enter Information</h2>
-        <form asp-action="Page4" method="post">
+        <form asp-action="Page3" method="post">
             <input asp-for="FirstName" /> <label>First Name</label> <p> </p>
             <input asp-for="Email" /> <label>Email</label> <p> </p>
             <input asp-for="Desrcription" /> <label>Description</label> <p> </p>
             <br />
             <br />
 
-        </form>
-        <h3>Enter Unique Code to Access Schedule</h3>
-        <form asp-action="Page4" method="post">
-            <input asp-for="UniqueCode" /> <label>Enter Unique Code</label> <p> </p>
-        </form>
-        <form asp-action="Page3" method="post">
-            <button type ="submit">
-                Submit
-            </button>
+            <h3>Enter a Unique Code to Access Your Schedule</h3>
+            <br />
+
+            <label>Unique Code</label> <input asp-for="UniqueCode" /><p> </p>
+
+            <input id="Submit1" type="submit" value="Submit" />
+
         </form>
     </body>
 
